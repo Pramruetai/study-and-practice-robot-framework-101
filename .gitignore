@@ -1,0 +1,45 @@
+# Robot Framework specific
+/.robotframework
+/.rfignore
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+
+# Others
+.DS_Store
+Thumbs.db
+.vscode
+
+*.log
+log.html
+output.xml
+report.html
