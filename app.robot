@@ -2,8 +2,8 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${URL}        https://s09z.github.io
-${BROWSER}    firefox
+${URL}        https://google.co.th
+${BROWSER}    Firefox
 
 *** Keywords ***
 Open My First Test Website
