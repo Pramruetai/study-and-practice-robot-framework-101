@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 
 *** Variables ***
 ${URL}        https://s09z.github.io
-${BROWSER}    firefox
+${BROWSER}    chrome
 
 *** Keywords ***
 Open My First Test Website
@@ -12,6 +12,9 @@ Open My First Test Website
 
 *** Test Cases ***
 TEST_CASE_01: ลองเปิดหน้าเว๊บ
-    # Open My First Test Website    $URL    $BROWSER
+    # Open My First Test Website $URL    $BROWSER
     Open Browser   ${URL}    ${BROWSER}
+
     Maximize Browser Window
+
+    Wait Until Element Is Visible    xpath://*[contains(text(),'Example Domain')]
