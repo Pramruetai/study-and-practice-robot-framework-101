@@ -17,4 +17,6 @@ TEST_CASE_01: ลองเปิดหน้าเว๊บ
 
     Maximize Browser Window
 
-    Wait Until Element Is Visible    xpath://*[contains(text(),'Example Domain')]
+    #Wait Until Element Is Visible    xpath://*[contains(text(),'Example Domain')]
+    
+    Wait Until Element Is Visible    xpath://*[contains(text(),'Example Domain')]'
